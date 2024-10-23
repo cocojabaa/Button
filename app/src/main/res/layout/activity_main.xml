@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/playButtonFrameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="217dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32999998">
+
+        <ImageView
+            android:id="@+id/buttonBase"
+            android:layout_width="230dp"
+            android:layout_height="197dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/base" />
+
+        <ImageView
+            android:id="@+id/buttonSide"
+            android:layout_width="198dp"
+            android:layout_height="139dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/side" />
+
+        <ImageView
+            android:id="@+id/buttonTopSide"
+            android:layout_width="198dp"
+            android:layout_height="139dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            app:srcCompat="@drawable/top_side" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/randomButtonFrameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95">
+
+        <ImageView
+            android:id="@+id/randomBase"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/random_base" />
+
+        <ImageView
+            android:id="@+id/randomSideOval"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/random_side_oval" />
+
+        <ImageView
+            android:id="@+id/randomSideRect"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/random_side_rect" />
+
+        <ImageView
+            android:id="@+id/randomTopSide"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/random_top_side" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

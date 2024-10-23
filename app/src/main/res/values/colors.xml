@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background">#F8F8F8</color>
+
+    <color name="base_light">#ececeb</color>
+    <color name="base">#DBDBDB</color>
+
+    <color name="top_side_light">#ee877c</color>
+    <color name="top_side">#f4716f</color>
+    <color name="side">#f14442</color>
+
+    <color name="top_side_random">#A66B41</color>
+    <color name="top_side_random_light">#c67942</color>
+    <color name="side_random">#894F24</color>
+
+    <color name="play_text">#FAB4AC</color>
+</resources>
